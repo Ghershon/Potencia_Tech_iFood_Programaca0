@@ -1,4 +1,4 @@
-let nomeHeroi = "Wick";
+let nomeHeroi = "Jardani Jovonovich";
 let XP = 289;
 let nivel;
 
@@ -20,4 +20,4 @@ if (XP < 1000) {
     nivel = "Radiante";
 }
 
-console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel);
+console.log("O Herói de nome " + nomeHeroi + " está no nível " + nivel);
