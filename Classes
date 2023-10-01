@@ -1,0 +1,45 @@
+//Criei uma class chamada Heroi, utilizando constructor com 3 propiedades introduzindo o this .
+
+class Heroi {
+    constructor(nome, idade, tipo) { 
+        this.nome = nome;
+        this.idade= idade;
+        this.tipo= tipo;
+ }
+ 
+ //Usei o método atacar com estrutura de decisão switch case com 1 variável, com o return logo em baixo
+ atacar() {
+    let ataque;
+    switch (this.tipo){
+        case 'Seiya de Pegaso':
+            ataque = " Meteoro de Pegasus ";
+            break;
+        case 'Hyoga de Cisne' :
+            ataque = " Pó de Diamante ";
+            break;
+        case 'Shiryu de Dragão' :
+            ataque = " Cólera do Dragão "
+            break;
+        case 'Ikki de Fênix' : 
+            ataque=  " Ave Fênix "
+            break;
+    }
+        	return ` O ${this.tipo} atacou usando ${ataque} `;
+    }     
+
+ }
+
+ //Aqui utilizei o 'new' com  função Object Integrada com constantes
+const heroi1  = new Heroi("Seiya", 38, "Seiya de Pegaso");
+const heroi2 =  new Heroi("Hyoga", 527, "Hyoga de Cisne");
+const heroi3 =  new Heroi("Shiryu", 888, "Shiryu de Dragão");
+const heroi4 =  new Heroi("Ikki", 29, "Ikki de Fênix");
+
+//No final 4 console.log pra obter as 4 saídas
+console.log(heroi1.atacar());  
+console.log(heroi2.atacar());
+console.log(heroi3.atacar());
+console.log(heroi4.atacar());
+
+
+    
