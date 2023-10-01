@@ -1,4 +1,4 @@
-//Criei uma class chamada Heroi, utilizando constructor com 3 propiedades introduzindo o this .
+//Classe criada com nome Heroi, utilizando constructor com 3 propiedades introduzindo o this .
 
 class Heroi {
     constructor(nome, idade, tipo) { 
@@ -30,6 +30,7 @@ class Heroi {
  }
 
  //Aqui utilizei o 'new' com  função Object Integrada com constantes
+
 const heroi1  = new Heroi("Seiya", 38, "Seiya de Pegaso");
 const heroi2 =  new Heroi("Hyoga", 527, "Hyoga de Cisne");
 const heroi3 =  new Heroi("Shiryu", 888, "Shiryu de Dragão");
